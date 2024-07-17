@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "nome": "Crystal FF1",
+    "image": [
+      "https://i.ibb.co/zV4YyhP/crystal1.jpg"
+    ],
+    "preco": "30",
+    "quantidade": "15"
+  },
+  {
+    "id": 2,
+    "nome": "Crystal FF2",
+    "image": [
+      "https://i.ibb.co/zV4YyhP/crystal1.jpg"
+    ],
+    "preco": "30",
+    "quantidade": "50"
+  },
+  {
+    "id": 3,
+    "nome": "Crystal FF3",
+    "image": [
+      "https://i.ibb.co/zV4YyhP/crystal1.jpg"
+    ],
+    "preco": "25",
+    "quantidade": "15"
+  },
+  {
+    "id": 4,
+    "nome": "Crystal FF4",
+    "image": [
+      "https://i.ibb.co/zV4YyhP/crystal1.jpg"
+    ],
+    "preco": "364",
+    "quantidade": "15"
+  },
+  {
+    "id": 5,
+    "nome": "Crystal FF5",
+    "image": [
+      "https://i.ibb.co/zV4YyhP/crystal1.jpg"
+    ],
+    "preco": "35",
+    "quantidade": "5"
+  },
+  {
+    "id": 6,
+    "nome": "Crystal FF6",
+    "image": [
+      "https://i.ibb.co/zV4YyhP/crystal1.jpg"
+    ],
+    "preco": "105",
+    "quantidade": "3"
+  },
+  {
+    "id": 7,
+    "nome": "Crystal FF7",
+    "image": [
+      "https://i.ibb.co/zV4YyhP/crystal1.jpg"
+    ],
+    "preco": "150",
+    "quantidade": "10"
+  },
+  {
+    "id": 8,
+    "nome": "Crystal FF8",
+    "image": [
+      "https://i.ibb.co/zV4YyhP/crystal1.jpg"
+    ],
+    "preco": "45",
+    "quantidade": "10"
+  },
+  {
+    "nome": "Crystal FF9",
+    "image": [
+      "https://i.ibb.co/zV4YyhP/crystal1.jpg"
+    ],
+    "preco": "199",
+    "quantidade": "2",
+    "id": "9"
+  }
+]

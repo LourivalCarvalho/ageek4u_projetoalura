@@ -1,0 +1,43 @@
+.main_container {
+  margin: auto;
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 1rem;
+
+  border-radius: 16px;
+  border: 0px solid #000;
+}
+dialog:backdrop {
+  background-color: #5c9475;
+  opacity: 0.80;
+}
+
+.mensagem_alerta {
+  font-family: "Nunito Sans";
+  font-weight: 800;
+  flex-direction: column;
+  background: #fff;
+  padding: 1rem;
+  margin: auto;
+  position: fixed;
+  border-radius: 16px;
+  border: 2px solid #000;
+  gap: 1rem;
+
+  z-index: 3;
+}
+
+.mensagem_alerta button {
+  padding: 0.27rem;
+  background: #fff;
+  margin-top: 0.7rem;
+}
+
+.erro:hover,
+.erro:focus {
+  background: #5c9475;
+  color: #c7c7c7;
+}

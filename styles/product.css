@@ -1,0 +1,88 @@
+* {
+    clear: both;
+    scrollbar-width: thin;
+    margin: 0px;
+    padding: 0px;
+    scrollbar-color: #7fbc8c transparent;
+    scrollbar-gutter: auto;
+}
+
+.products_container::-webkit-scrollbar-track {
+    background-color: #5c9475;
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar {
+    width: 2px;
+}
+
+.products_container {
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    justify-content: space-evenly;
+    justify-self: center;
+    width: 100%;
+    margin-bottom: 0.2rem;
+}
+
+
+
+.product {
+    transition-duration: 1000ms;
+    display: flex;
+    flex-direction: column;
+    width: 342px;
+    height: 316px;
+    background: #5c9475;
+    margin: 0.5rem;
+    border-radius: 16px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.product:hover{
+    transition-duration: 400ms;
+    border: 2px solid black;
+}
+
+.product img {
+    margin: 1.125rem;
+    height: 188px;
+    object-fit: contain;
+    filter: drop-shadow(3px 6px 0 black);
+    border-radius: 10px;
+}
+
+.describe_product {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 0.25rem;
+    font-family: "Nunito Sans";
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 800;
+    padding-left: 1.125rem;
+}
+
+.deletar_produto{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 86%;
+    bottom: 5%;
+    width: 30px;
+    height: 30px;
+    background: #ff0000;
+    border-radius: 100%;
+    outline: 3px solid #000;
+    z-index: 1;
+}
+
+.delete_icon {
+   color: #ff0000;
+   cursor: pointer;
+}

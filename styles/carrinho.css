@@ -1,0 +1,66 @@
+.carrinho_popup {
+  display: none;
+  grid-template-areas:
+    "produtos"
+    "preco";
+  position: absolute;
+  width: 230px;
+  height: 40%;
+  top: 100px;
+  border-radius: 8px 8px;
+  border: 2px solid #000;
+  background: #fff;
+  z-index: 3;
+  right: calc(100% / 7);
+}
+
+.products_carrinho {
+  grid-area: produtos;
+  overflow: auto;
+}
+
+.product_carrinho {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 200px;
+  background: #5c9475;
+  margin: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 8px;
+  border: 2px solid #000;
+}
+
+.product_carrinho img {
+  align-self: center;
+  width: 180px;
+  max-height: 100px;
+  margin: 0.5rem;
+  object-fit: contain;
+  filter: drop-shadow(2px 3px 0 black);
+  border-radius: 7px;
+}
+
+.describe_product_popup {
+  font-family: "Nunito Sans Sans";
+  font-weight: 800;
+  padding-left: 0.8rem;
+  font-size: 1rem;
+}
+
+.preco_carrinho {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: self-end;
+  padding: 0.5rem;
+
+  grid-area: preco;
+}
+
+.preco_carrinho p {
+  font-family: "Nunito Sans Sans";
+  font-size: 1.5rem;
+  font-weight: 800;
+}
